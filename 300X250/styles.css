@@ -111,6 +111,9 @@ img {
   letter-spacing: -0.1px;
   line-height: 1.15;
 }
+#h2 sup{
+  font-size: 8px;
+}
 #faceL{
   top: 5px;
 }
@@ -121,15 +124,14 @@ img {
   background-color: #000;
   font-size: 13.5px;
   letter-spacing: 0.25px;
-  line-height: 0.95;
+  line-height: 13px;
   text-align: center;
-  padding: 6.5px 5px 7.5px;
+  padding: 6px 5px 6px;
 }
-.legal span{
-  font-size: 9px;
-  color: #fff;
-  top: -4px;
+.legal sup{
+  font-size: 5px;
   position: relative;
+  top: -2px;
 }
 .cta {
   text-align: center;
