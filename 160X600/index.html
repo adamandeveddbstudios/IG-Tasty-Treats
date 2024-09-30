@@ -18,15 +18,9 @@
   <div id="main_container" class="full-width full-height">
     <!--start main_container-->
     <div id="main_content" class="full-width full-height pos-abs left-0 top-0">
-      <div id="left_content" class="pos-abs full-width full-height pos-abs left-0 top-0">
-        <img src="./images/face.png" id="faceL" class="faceimage-width full-height pos-abs left-0 top-0" />
-        <div id="h1L" class="full-width pos-abs left-0 hidden text_red text_MatterBold">
-          Whatever<br>happens,<br>it’s good to <br>have options
-        </div>
-      </div>
       <div id="right_content" class="pos-abs full-width full-height pos-abs right-0 top-0 of-hide">
         <img src="./images/face.png" id="faceR" class="faceimage-width full-height pos-abs right-0 top-0 hidden" />
-        <div id="h1R" class="full-width pos-abs right-0 hidden text_white text_MatterBold">
+        <div id="h1R" class="full-width pos-abs left-0 hidden text_white text_MatterBold">
           Whatever<br>happens,<br>it’s good to <br>have options
         </div>
         <div id="h2" class="full-width pos-abs left-0 hidden text_white text_MatterBold">
@@ -37,15 +31,23 @@
         </div>
         <img src="./images/phn.png" id="phn" class="full-width full-height pos-abs left-0 top-0 hidden" />
       </div>
+      <div id="left_content" class="pos-abs full-width full-height pos-abs left-0 top-0 of-hide">
+        <img src="./images/face.png" id="faceL" class="faceimage-width full-height pos-abs left-0 top-0 hidden" />
+        <div id="h1L" class="full-width pos-abs left-0 hidden text_red text_MatterBold">
+          Whatever<br>happens,<br>it’s good to <br>have options
+        </div>
+      </div>
 
       <div id="h4" class="full-width pos-abs left-0 hidden text_white text_MatterBold">
         Choose a new<br>way to trade<br>US options <br>and futures
       </div>
       <div id="legal" class="legal hidden pos-abs left-0 bottom-0 right-0 text_white text_MatterBold">
-        When trading options<br>and futures, losses<br>can exceed your<br>original investment.<br><sup>✱</sup>Best Platform for<br>Options Trading,<br>ADVFN 2024.
+        When trading options<br>and futures, losses<br>can exceed your<br>original investment.<br><sup>✱</sup>Best
+        Platform for<br>Options Trading,<br>ADVFN 2024.
       </div>
 
-      <img src="./images/logo.png" id="logo" class="full-width full-height pos-abs left-0 top-0 hidden" />
+      <img src="./images/logo.svg" id="logo" class="pos-abs hidden" />
+
       <div id="cta" class="cta hidden pos-abs text_red text_MatterBold">
         <span>Find out more</span>
       </div>
@@ -66,7 +68,7 @@
     clickArea.onclick = function () {
       window.open(clickTag);
     };
-    </script>
+  </script>
   <script type="text/javascript" src="main.js"></script>
 </body>
 
