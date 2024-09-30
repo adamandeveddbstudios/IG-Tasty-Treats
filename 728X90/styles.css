@@ -67,17 +67,19 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#main_content{
+  background-color: #e61d1e;
+}
 #left_content {
   background-color: #fff;
-  /* transform-origin: right; */
+  background: linear-gradient(-90deg, #ffffff00 0px, #fff 0.1px);
+  transform-origin: right;
 }
 
 
 #right_content {
   background-color: #e61d1e;
-  background: linear-gradient(90deg, #ffffff00 0px, #e61d1e 0.1px);
-  transform-origin: left;
+  /* transform-origin: left; */
 }
 
 .text_red {
@@ -192,4 +194,9 @@ img {
 
 ::-moz-focus-inner {
   border: 0;
+}
+#logo{
+  width: 137px;
+  left: 454px;
+  top: 27px;
 }
